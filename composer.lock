@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2eec58b6b091ba94d79696d44642cea",
+    "content-hash": "45f29b40994d1d20bb643f82bd85aa35",
     "packages": [
         {
             "name": "aigletter/contracts",
@@ -45,6 +45,46 @@
                 "source": "https://github.com/aigletter/contracts/tree/1.0.2"
             },
             "time": "2022-05-02T20:50:26+00:00"
+        },
+        {
+            "name": "algvo/router",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlGvo/Router.git",
+                "reference": "d1e254abc388dfbedf02413cde3f7d3f90108a74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlGvo/Router/zipball/d1e254abc388dfbedf02413cde3f7d3f90108a74",
+                "reference": "d1e254abc388dfbedf02413cde3f7d3f90108a74",
+                "shasum": ""
+            },
+            "require": {
+                "aigletter/contracts": "^1.0.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Algvo\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Gvozdev",
+                    "email": "dp161185gav@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/AlGvo/Router/issues",
+                "source": "https://github.com/AlGvo/Router/tree/master"
+            },
+            "time": "2022-05-11T17:13:25+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -101,7 +141,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "algvo/router": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

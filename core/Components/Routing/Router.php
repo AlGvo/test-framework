@@ -27,6 +27,7 @@ class Router implements RouteInterface
                 $controller = new ShopController();
                 if ($segments[1] === 'show') {
                     $method = 'show';
+                    die("Test");
                 }
             }
         }

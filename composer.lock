@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/AlGvo/Router.git",
-                "reference": "d1e254abc388dfbedf02413cde3f7d3f90108a74"
+                "reference": "bf1051f67365b3bec097c4a85be8f235f20de090"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AlGvo/Router/zipball/d1e254abc388dfbedf02413cde3f7d3f90108a74",
-                "reference": "d1e254abc388dfbedf02413cde3f7d3f90108a74",
+                "url": "https://api.github.com/repos/AlGvo/Router/zipball/bf1051f67365b3bec097c4a85be8f235f20de090",
+                "reference": "bf1051f67365b3bec097c4a85be8f235f20de090",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "issues": "https://github.com/AlGvo/Router/issues",
                 "source": "https://github.com/AlGvo/Router/tree/master"
             },
-            "time": "2022-05-11T17:13:25+00:00"
+            "time": "2022-05-21T15:31:34+00:00"
         },
         {
             "name": "psr/simple-cache",
